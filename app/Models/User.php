@@ -51,7 +51,7 @@ class User extends Authenticatable
 
     public function servicio()
     {
-        return $this->belongsTo(service::class);
+        return $this->belongsTo(Service::class);
     }
     public function cargo()
     {

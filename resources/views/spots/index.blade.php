@@ -38,7 +38,7 @@
                                     <td class="filas-tabla">
                                         @if ($pu->boton)
                                             <img class="imgMuestra"
-                                                src="/storage/{{ $pu->boton }}"alt="{{ $pu->id }}">
+                                                src="../../public/storage/{{ $pu->boton }}"alt="{{ $pu->id }}">
                                         @else
                                             {{ $pu->id }}
                                         @endif
