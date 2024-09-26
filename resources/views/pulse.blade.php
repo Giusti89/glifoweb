@@ -15,7 +15,7 @@
 
         </div>
         <div class="titulo">
-            <h2>Nuestros clientes <b>Pulsee</b> </h2>
+            <h2>Nuestros clientes <b>Pulse</b> </h2>
         </div>
         <div class="capa2">
             <div class="fotos" oncontextmenu='return false'>
