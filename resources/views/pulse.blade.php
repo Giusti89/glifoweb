@@ -23,7 +23,7 @@
                     @if ($cuadro->estado == 1)
                         <div class="imgpub">
                             <a href="{{ route('publicidad.show', $cuadro->slug) }}">
-                                <img class="imgMuestraAvatar" src="/storage/{{ $cuadro->boton }}" alt="">
+                                <img class="imgMuestraAvatar" src="../../public/storage/{{ $cuadro->boton }}" alt="">
                             </a>
                         </div>
                     @endif

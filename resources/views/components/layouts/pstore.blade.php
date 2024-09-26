@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/publicidadtienda.css">
+    <link rel="stylesheet" href="../../css/publicidadtienda.css">
 
-    <link rel="icon" href="{{ asset('/storage/' . $logoCliente ?? '') }}">
+    <link rel="icon" href="{{ asset('../../public/storage/' . $logoCliente ?? '') }}">
 
     <title>{{ $titulo ?? '' }}</title>
 </head>
@@ -15,7 +15,7 @@
 <body>
     <div class="contPrincipal">
         <div class="banerPrincipal" oncontextmenu='return false'>
-            <img src="{{ asset('/storage/' . $imagenPrincipal ?? '') }}" alt="{{ $titulo ?? '' }}">
+            <img src="{{ asset('../../public/storage/' . $imagenPrincipal ?? '') }}" alt="{{ $titulo ?? '' }}">
         </div>
         <div class="art">
             <div class="descrip">
@@ -28,7 +28,7 @@
                     @foreach ($redes as $red)
                         <div class="boton">
                             <a href="{{ $red->link }}" target="_blank">
-                                <img src="{{ asset('/storage/' . $red->imagen) }}" alt="{{ $red->nombre }}">
+                                <img src="{{ asset('../../public/storage/' . $red->imagen) }}" alt="{{ $red->nombre }}">
                             </a>
                         </div>
                     @endforeach
@@ -41,7 +41,7 @@
 
         <div class="repro">
             <video autoplay="false" controls oncontextmenu='return false'>
-                <source src="{{ asset('/storage/' . $videoPrincipal ?? '') }}" type="video/mp4" />
+                <source src="{{ asset('../../public/storage/' . $videoPrincipal ?? '') }}" type="video/mp4" />
             </video>
 
         </div>
@@ -53,7 +53,7 @@
            
             @foreach ($articulo as $art)
                 <div class="item">
-                    <img src="{{ asset('/storage/' . $art->ruta) }}" alt="">
+                    <img src="{{ asset('../../public/storage/' . $art->ruta) }}" alt="">
                     <h2>{{ $art->nombre }}</h2>
                     <p>{{ $art->descripcion }}</p>
                     <b>{{ $art->costo }}</b>

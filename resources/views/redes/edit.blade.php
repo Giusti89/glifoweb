@@ -9,7 +9,7 @@
                 @csrf
 
                 <label for="">Imagen Actual:</label>
-                <img class="max-w-xs h-suto" src="/storage/{{ $reed->imagen }}"alt="{{ $reed->nombre }}">
+                <img class="max-w-xs h-suto" src="../../public/storage/{{ $reed->imagen }}"alt="{{ $reed->nombre }}">
                 
                 <input type="text" name="iden" id="iden" hidden value="{{ $reed->id }}">
 

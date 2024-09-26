@@ -19,7 +19,7 @@
                             <td class="filas-tabla">
                                 <div class="repro">
                                     <video autoplay="false" controls>
-                                        <source src="{{ asset('/storage/' . $video->ruta) }}"
+                                        <source src="{{ asset('../../public/storage/' . $video->ruta) }}"
                                             type="video/mp4" />
                                     </video>
                                     

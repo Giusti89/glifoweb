@@ -12,7 +12,7 @@
                 <label for="">Video Actual:</label>
                 <div class="repro">
                     <video autoplay="false" controls>
-                        <source src="{{ asset('/storage/' . $vid->ruta) }}" type="video/mp4" />
+                        <source src="{{ asset('../../public/storage/' . $vid->ruta) }}" type="video/mp4" />
                     </video>
                 </div>
 

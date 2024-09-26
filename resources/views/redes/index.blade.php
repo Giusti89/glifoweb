@@ -24,7 +24,7 @@
                                 {{ $pub->link }}
                             </td>
                             <td class="filas-tabla" id="descripcion">
-                                <img class="imgMuestra" src="/storage/{{$pub->imagen}}"alt="{{$pub->id}}">
+                                <img class="imgMuestra" src="../../public/storage/{{$pub->imagen}}"alt="{{$pub->id}}">
                             </td>
                             <td class="filas-tabla">
 
