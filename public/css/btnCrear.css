@@ -1,0 +1,70 @@
+#myBtn2 {
+    background-color: green;
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 1vw;
+    width: 12vw;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+
+#myBtn2 {
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #4CAF50;
+    border-radius: 10%;
+    padding: 1vw;
+    width: 12vw;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+
+#myBtn2:hover {
+    background-color: #28bb2d;
+}
+
+#myBtn2:active {
+    background-color: #02ff0a;
+}
+@media screen and (max-width: 740px) {
+    
+#myBtn2 {
+    background-color: green;
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 1vw;
+    width: 35vw;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 5vw;
+}
+
+#myBtn2 {
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #4CAF50;
+    border-radius: 10%;
+    padding: 1vw;
+    width: 35vw;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 5vw;
+}
+
+#myBtn2:hover {
+    background-color: #28bb2d;
+}
+
+#myBtn2:active {
+    background-color: #02ff0a;
+}
+    
+}

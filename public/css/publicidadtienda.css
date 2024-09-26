@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    
+}
+
+
+.contPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+     
+}
+
+.banerPrincipal {
+    display:flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banerPrincipal img {
+    width: 1200px;
+    height: 606px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+.descrip {
+    width: 800px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.descrip p {
+    width: 80%;
+    margin-top:30px;
+    text-align: justify;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.conteBotones {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.boton {
+    margin: 10px;
+    width: auto;
+    gap: 5px;
+}
+
+.boton img {
+    width: 9vw;
+    border-radius: 24px;
+}
+
+.rectangulo {
+    margin-top: 50px;
+    width: 90%;
+    height: 100px;
+    background-color:aliceblue;
+}
+
+.repro {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.repro video {
+    width: 70%;
+    height: auto;
+}
+.titulo{
+    margin-bottom: 30px;
+    color: #fcd031;
+}
+
+.conteStore {
+    display: flex;
+
+    justify-content: center;
+    width: 95%;
+    flex-wrap: wrap;
+    
+    margin-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    padding: 5px;
+    margin: 15px;
+    gap: 15px;
+    border: solid rgb(199, 193, 193);
+}
+
+.item img {
+    width: 20vw;
+    height: 300px;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item h2 {
+    text-align: center;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    text-align: justify;
+}
+
+.item b {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fcd031;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 740px) {
+    
+    .banerPrincipal img {
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .art {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    .descrip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        
+    }
+    .descrip p {
+        width: 95%;
+        text-align: justify;
+    }
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+         
+    }
+    .conteBotones {
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rectangulo{
+        display:none;
+    }
+    .boton {
+        margin: 30px;
+        width: auto;
+        gap: 5px;
+    }
+    .boton img {
+        width: 30vw;
+        border-radius: 24px;
+    }
+    /*------------------ tienda ---------------------*/
+    .conteStore {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        
+        margin-bottom: 50px;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        padding: 5px;
+        margin: 15px;
+        gap: 15px;
+        border: solid rgb(199, 193, 193);
+    }
+    .item img {
+        width: 70vw;
+        border-radius: 24px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .item h2 {
+        text-align: center;
+    }
+    .item p {
+        text-align: justify;
+    }
+    .item b {
+        color: #fcd031;
+    }
+}

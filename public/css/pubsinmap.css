@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.contPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.banerPrincipal {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banerPrincipal img {
+    width: 1328px;
+    height: 606px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art {
+    display: flex;
+    flex-direction: row;
+    width: 1328px;
+    margin-bottom: 50px;
+    justify-content: center;
+    
+}
+
+.descrip {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.descrip img {
+    object-fit: cover;
+    width: 321px;
+    height: 321px;
+    padding: 1vw;
+    border-radius: 24px;
+    
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+/* -------------- */
+
+.empr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.empr p {
+    width: 70%;
+    text-align: justify;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteBotones {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton {
+    margin: 15px;
+    width: auto;
+    gap: 5px;
+}
+
+.boton img {
+    width: 12vw;
+    border-radius: 24px;
+}
+
+.rectangulo {
+    margin-top: 50px;
+    width: 550px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.repro {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-bottom: 50px;
+     justify-content: center;
+}
+
+.repro video {
+    width: 80%;
+    height: auto;
+}
+@media screen and (max-width: 740px) {
+    .banerPrincipal img {
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .art {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    .descrip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        gap: 15px;
+    }
+    .descrip img {
+        object-fit: cover;
+        width: 70vw;
+        height: auto;
+        padding: 1vw;
+        border-radius: 24px;
+        box-shadow: 3px 3px 4.4px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+    .descrip p {
+        width: 95%;
+        text-align: justify;
+    }
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .conteBotones {
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top:10px;
+       
+    }
+    .boton {
+        margin: 5px;
+        width: auto;
+        gap:1px;
+    }
+    .boton img {
+        height: 10vh;
+        width: auto;
+        border-radius: 24px;
+    }
+    .empr h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        
+    }
+    .rectangulo {
+        display:none;
+    }
+
+}

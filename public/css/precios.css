@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Segoe";
+    src: url(../fonts/seguiemj.ttf);
+}
+
+@font-face {
+    font-family: "Sifonn";
+    src: url(../fonts/SIFONN_PRO.otf);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo h1,
+h2 {
+    color: #fcd031;
+    text-align: center;
+    font-family: Segoe;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.tablap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw;
+    overflow: auto;
+    overflow-y: auto;
+}
+
+.content-table {
+    border-collapse: separate;
+    border-spacing: 1.5vw;
+    font-size: 1em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(247, 246, 246, 0.15);
+}
+
+.tablap::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+}
+
+.tablap::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    border: 3px solid #fff;
+}
+
+.thead tr {
+    background-color: aliceblue;
+    height: 15vh;
+}
+
+.thead th {
+    padding: 3vw;
+}
+
+.body-table td {
+    text-align: center;
+    height: 5vh;
+}
+
+th {
+    background-color: #fcd031;
+    color: black;
+    border-radius: 15px 10px 0 0;
+    text-align: center;
+    justify-content: center;
+}
+
+th p {
+    font-family: Segoe;
+    rotate: -20deg;
+}
+
+td {
+    background-color: white;
+    border-radius: 0 0 15px 10px;
+}
+
+.mid td {
+    border-radius: 0;
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.table-foot td {
+    background-color: #fcd031;
+    text-align: center;
+    height: 10vh;
+    font-weight: bold;
+}
+
+.table-foot th {
+    background-color: white;
+    text-align: center;
+    border-radius: 0 0 15px 10px;
+}
+
+.mid-foot tr {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+    .titulo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .titulo h1,
+    h2 {
+        color: #fcd031;
+        text-align: center;
+        font-family: Segoe;
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 1vh;
+    }
+    .tablap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2vw;
+        border-collapse: collapse;
+    }
+    .content-table {
+        border-collapse: separate;
+        border-spacing: 1.5vw;
+        font-size: 0.5em;
+        font-family: sans-serif;
+        box-shadow: 0 0 20px rgba(247, 246, 246, 0.15)
+    }
+    .thead tr {
+        background-color: aliceblue;
+        height: 15vh;
+    }
+    .thead th {
+        padding: 0.5vh;
+        font-size: 1.5em;
+    }
+    .body-table td {
+        text-align: center;
+        height: 2vh;
+    }
+    th {
+        background-color: #fcd031;
+        color: black;
+        border-radius: 15px 10px 0 0;
+        text-align: center;
+        justify-content: center;
+    }
+    th p {
+        font-family: Segoe;
+        rotate: -20deg;
+        font-size: 1.5em;
+    }
+    td {
+        background-color: white;
+        border-radius: 0 0 15px 10px;
+    }
+    .mid td {
+        border-radius: 0;
+        background-color: white;
+        font-size: 3vw;
+    }
+    .table-foot td {
+        background-color: #fcd031;
+        text-align: center;
+        height: 5vh;
+        font-weight: bold;
+    }
+    .table-foot th {
+        background-color: white;
+        text-align: center;
+        border-radius: 0 0 15px 10px;
+    }
+    .mid-foot tr {
+        background-color: aliceblue;
+    }
+}
