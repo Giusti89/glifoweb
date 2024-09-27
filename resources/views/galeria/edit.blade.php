@@ -10,7 +10,7 @@
                 @csrf
 
                 <label for="">Imagen Actual:</label>
-                <img class="max-w-xs h-suto" src="/storage/{{ $imgg->ruta }}"alt="">
+                <img class="max-w-xs h-suto" src="../../publicstorage/{{ $imgg->ruta }}"alt="">
 
                 <label for="">Tipo de Prioridad:</label>
                 <div class="selectores">

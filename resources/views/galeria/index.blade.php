@@ -24,7 +24,7 @@
                             @endif
                         </td>
                         <td class="filas-tabla">
-                            <img class="imgMuestra" src="/storage/{{ $im->ruta }}"alt="">
+                            <img class="imgMuestra" src="../../publicstorage/{{ $im->ruta }}"alt="">
                         </td>
 
 

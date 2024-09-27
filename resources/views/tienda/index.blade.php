@@ -19,7 +19,7 @@
                 @foreach ($tienda as $articulo)
                     <tr>
                         <td class="filas-tabla">
-                            <img class="imgMuestra" src="/storage/{{ $articulo->ruta }}"alt="{{ $articulo->nombre }}">
+                            <img class="imgMuestra" src="../../publicstorage/{{ $articulo->ruta }}"alt="{{ $articulo->nombre }}">
                         </td>
                         <td class="filas-tabla">
                             {{ $articulo->nombre }}

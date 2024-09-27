@@ -10,7 +10,7 @@
                 @csrf
 
                 <label for="">Imagen actual del Artículo:</label>
-                <img class="max-w-xs h-suto" src="/storage/app/public/{{ $tienda->ruta }}"alt="">
+                <img class="max-w-xs h-suto" src="../../publicstorage/app/public/{{ $tienda->ruta }}"alt="">
 
                 <input type="text" name="iden" id="iden" hidden value="{{ $tienda->id }}">
 
